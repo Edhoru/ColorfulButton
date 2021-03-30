@@ -1,3 +1,10 @@
-struct ColorfulButton {
-    var text = "Hello, World!"
+import UIKit
+import Colorful
+
+extension UIButton {
+    
+    public func paint() {
+        backgroundColor = UIColor.greeny
+    }
+    
 }
